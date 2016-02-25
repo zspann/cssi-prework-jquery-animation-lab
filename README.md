@@ -4,8 +4,9 @@ There are some basic jQuery events in script.js, and a cute image of a pig in pi
 
 ## Step 1: Animate the Pigs when you Click the Fly Button
 Add a third button called "Fly" that makes the pig "fly" my moving left and exiting the screen. To do this, you will actually have to animate the pig's parent div.
-* Check out the animate documentation to get this to happen.
-* In CSS, make sure div is styled to have `position: absolute`.
+* Check out the .animate() documentation to get this to happen.
+* In CSS, make sure div is styled to have absolute positioning and inline-block display.
+
 
 ## Step 2: Jump on Mouse Click
 Use what you learned about jQuery events to have the pig slide up and down when 3 times it is clicked.
