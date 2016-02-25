@@ -9,13 +9,13 @@ Add a third button called "Fly" that makes the pig "fly" by moving right and exi
 
 
 ## Step 2: Jump on Mouse Click
-Use what you learned about jQuery events to have the pig slide up and down when 3 times it is clicked.
+Use what you learned about jQuery events to have the pig hop up and down when 3 times it is clicked. You will need both a loop and to use relative values (+=10px, -=10px)
 
 ## Step 3: Add a New Pig
-Modify the HTML to add a new pig *to the right* of your current pig. You might have to play around with the CSS layout properties.
+Modify the HTML to add a new pig *to the right* of your current pig.
 
 ## **Stretch:** Follow the Leader
-Create an event where once the first pig flies away, the other one follows automatically after a set period of time.
+Create an event that is triggered by double clicking the 1st pig, who then flies away. Once the first pig flies away, the other one follows automatically. Use a callback function so that the 2nd pig is animated only after the first animation is complete.
 
 # Reference
 [W3 Schools jQuery Animation](http://www.w3schools.com/jquery/jquery_animate.asp)
