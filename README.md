@@ -3,9 +3,9 @@
 There are some basic jQuery events in script.js, and a cute image of a pig in pig.html. Open this repo on Github and clone these files onto your local machine.
 
 ## Step 1: Animate the Pigs when you Click the Fly Button
-Add a third button called "Fly" that makes the pig "fly" by moving right and exiting the screen. To do this, you will actually have to animate the pig's parent div.
+Add a third button called "Fly" that makes the pig "fly" by moving right and exiting the screen.
 * Check out the .animate() documentation to get this to happen.
-* In CSS, make sure div is styled to have absolute positioning and inline-block display.
+* In CSS, change the `img` elements to be styled with a position other than the static - which is the default. Otherwise the pigs won't be able to move.
 
 
 ## Step 2: Jump on Mouse Click
