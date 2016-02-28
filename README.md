@@ -9,7 +9,7 @@ Add a third button called "Fly" that makes the pig "fly" by moving right and exi
 
 
 ## Step 2: Jump on Mouse Click
-Use what you learned about jQuery events to have the pig hop up and down when 3 times it is clicked. You will need both a loop and to use relative values (+=10px, -=10px)
+Use what you learned about jQuery events to have the pig hop up and down 3 times when it is clicked. You will need both a loop and to use relative values (+=10px, -=10px)
 
 ## Step 3: Add a New Pig
 Modify the HTML to add a new pig *to the right* of your current pig.
