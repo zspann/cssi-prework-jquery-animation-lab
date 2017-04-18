@@ -8,12 +8,19 @@ $(document).ready(function(){
     $("#hidePig").click(function(){
         $("#pig").hide();
     });
-    //add a third button that makes the pig exit to the right when the new button is clicked
 
-    //add a new event handler that causes the pig to slide up and down 3 times when the pig is clicked
-    //(hint: use a loop and relative values (-= or +=))
+    //I'd like to get this to toggle back and forth but I haven't figured our how yet.
+    $("#slidePig").click(
+      function() {
+        $("#pig").animate({left: '2000px'}, "slow");
+      }
+    );
 
-    //STRETCH add a new pig that flies away once the first pig has exited the screen.
-    //(hint: You will have to put the animation of the second pig inside a callback function.)
-
+    $("img").click(function() {
+      var i = 0
+      while (i < 3) {
+        $("#pig").animate({top: '+=10px'}, 100).animate({top: "-=10px"}, 100);
+        i += 1
+      }
+    })
 });
